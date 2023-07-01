@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input attribute</title>
+</head>
+<body>
+    <div>
+        <form action="/HTML/">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required placeholder="Name" autofocus>
+            <label for="rollno">Rollno</label>
+            <input type="number" name="roll" id="rollno" size="1" width="10px" height="5px" placeholder="rollnumber" min="1" max="32">
+            <label for="class">Class</label>
+            <input type="text" name="cls" id="class" placeholder="class" pattern="[A-Za-z0-9]+" title="Please enter Number and alphabets">
+            <label for="phone">Phone Number</label>
+            <input type="text" name="pho" id="phone" width="50px" height="5px" placeholder="phone number" pattern="[0-9]{10}" title="Enter numeric values only">
+            <label for="address">address</label>
+            <textarea name="values" id="address" cols="30" rows="10"></textarea>
+            <input type="Submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
